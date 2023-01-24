@@ -3,7 +3,7 @@ An example of the Vigenère Cipher algorithm (ROT0) based on Python 3
 ## Encryption
 ```
 #decrypt.py
-decrypt(text, key)
+encrypt(text, key)
 ```
 ## Decryption
 ```
