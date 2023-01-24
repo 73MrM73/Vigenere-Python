@@ -1,11 +1,11 @@
 # Vigenère Cipher for Python
 An example of the Vigenère Cipher algorithm (ROT0) based on Python 3
-# Encryption
+## Encryption
 ```
 #decrypt.py
 decrypt(text, key)
 ```
-# Decryption
+## Decryption
 ```
 #decrypt.py
 decrypt(text, key)
