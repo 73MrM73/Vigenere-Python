@@ -1,5 +1,8 @@
 # Vigenère Cipher for Python
 An example of the Vigenère Cipher algorithm (ROT0) based on Python 3
+## Peculiarities
+Able to work with alphabetical symbols, as well as with uppercase letters
+
 ## Encryption
 ```
 #encrypt.py
