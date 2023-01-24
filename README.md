@@ -1,2 +1,12 @@
 # Vigenère Cipher for Python
-An example of the Vigenère Cipher algorithm based on Python 3
+An example of the Vigenère Cipher algorithm (ROT0) based on Python 3
+# Encryption
+```
+#decrypt.py
+decrypt(text, key)
+```
+# Decryption
+```
+#decrypt.py
+decrypt(text, key)
+```
