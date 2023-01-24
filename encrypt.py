@@ -1,6 +1,6 @@
 alf_en = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
-def dict_gen(alf_dict, k):
+def dict_gen(alf_dict, k):                #Creating a dictionary for encryption
     dec = {}
     for i in range(len(alf_dict)):
         if len(alf_dict) > i+k:
@@ -9,13 +9,13 @@ def dict_gen(alf_dict, k):
             dec[alf_en[i]] = alf_dict[-1*(len(alf_dict)-i-k)]
     return dec
 
-def alf(s):
+def alf(s):                   #Checking the letters
     for i in alf_en:
         if i == s:
             return True
     return 'symb'
             
-def gen_key_text(text, key):
+def gen_key_text(text, key):         #Creating text from a key
     count = 0
     mas = []
     for i in text:
@@ -31,13 +31,13 @@ def gen_key_text(text, key):
             mas.append(i)
     return mas
 
-def gen_number(alf):
+def gen_number(alf):            #Creation of the dictionary of the alphabet
     dec = {}
     for i in range(len(alf)):
         dec[alf[i]] = i 
     return dec
     
-def encrypt(text, key):
+def encrypt(text, key):            #encryption function
     en_dict = gen_number(alf_en)
     key_text = gen_key_text(text, key)
     count = 0
@@ -57,7 +57,7 @@ def encrypt(text, key):
         count += 1
     return ''.join(mas)
             
-def main():
+def main():           #main function
     
     key = 'BLOCKCHAIN'
     text = 'TEST, CAR. HOUSE + CRYPTO'
