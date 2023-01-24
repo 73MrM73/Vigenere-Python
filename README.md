@@ -14,10 +14,10 @@ def main():
 
             
 if __name__ == "__main__":
-    main()
-    
-    ![Безымянный3](https://user-images.githubusercontent.com/123471749/214316085-f366ffff-8897-42eb-a28a-905ef01695ec.png)
+    main()    
 ```
+![encrypt](https://user-images.githubusercontent.com/123471749/214316608-8110f254-307a-4815-bba3-e6d76f07127a.png)
+
 ## Decryption
 ```
 #decrypt.py
@@ -32,8 +32,6 @@ def main():
     
 if __name__ == "__main__":
     main()
-    
-    ![Безымянный4](https://user-images.githubusercontent.com/123471749/214316299-89225e15-090c-41ba-acab-55c12259b2f1.png) 
-    
 ```
+![decrypt](https://user-images.githubusercontent.com/123471749/214316540-bd9bfd19-e0b0-46d5-9082-c83c5dfa35b9.png)
 
